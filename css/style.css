@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  background-color: #00005d;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+  color: #e6e6e6;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 10px 12px;
+}
+
+.background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.8vw;
+  border: none;
+  background-color: black;
+  padding: 12px 12px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  width: 16%;
+}
